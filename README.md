@@ -122,8 +122,22 @@ The estimated respiratory rate aligns well with ground truth values across vario
 ### Example Output:
 
 ```
-Peak Frequency: 0.28 Hz
-Estimated Respiratory Rate: 16.8 BPM
+Sample DFT Output (First 10 frequency components):
+
+Index    Real Part      Imaginary Part     Magnitude
+-----------------------------------------------------
+0        615.4875       0.0000             615.4875
+1        -0.8421        -1.2672            1.5274
+2        0.3834         -0.7592            0.8490
+3        -0.0145        0.1739             0.1745
+4        -0.3858        0.1754             0.4241
+5        -0.3274        -0.2457            0.4072
+6        0.0371         -0.0944            0.1016
+7        -0.1351        0.0249             0.1374
+8        -0.1203        -0.0589            0.1342
+9        -0.0127        0.0071             0.0146
+...
+
 ```
 
 ---
